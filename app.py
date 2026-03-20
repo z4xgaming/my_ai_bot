@@ -6,7 +6,7 @@ from gtts import gTTS
 app = Flask(__name__)
 
 # --- CONFIGURATION ---
-BOT_TOKEN = "" # <--- Apna Telegram Token yahan dalo
+BOT_TOKEN = "8480955083:AAFVIXXvXmbt7irxXTUte3ppItRDwn_0CXA" # <--- Apna Telegram Token yahan dalo
 genai.configure(api_key="AIzaSyAfUdfj6FDJwwGLdoXn_wE-jFfvORIKQnE")
 model = genai.GenerativeModel('gemini-1.5-flash')
 
